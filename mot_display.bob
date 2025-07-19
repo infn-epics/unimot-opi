@@ -4,7 +4,7 @@
   <name>motoarray</name>
   <width>820</width>
   <scripts>
-    <script file="Scripts/MotorLoadDevicePopulateArray.py">
+    <script file="../Scripts/YAMLLoadDevicePopulateArray.py">
       <pv_name>loc://ZONE_$(LCID)&lt;VString&gt;($(ZONE))</pv_name>
       <pv_name>loc://TYPE_$(LCID)&lt;VString&gt;($(TYPE))</pv_name>
     </script>
