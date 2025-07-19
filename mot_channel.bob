@@ -43,7 +43,7 @@
       <class>COMMENT</class>
       <actions>
         <action type="open_display">
-          <file>TML_Main.bob</file>
+          <file>$(OPI)</file>
           <macros>
             <DEVICE>$(P):$(R)</DEVICE>
           </macros>

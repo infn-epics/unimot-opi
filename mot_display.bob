@@ -4,14 +4,14 @@
   <name>motoarray</name>
   <width>820</width>
   <scripts>
-    <script file="Scripts/MotorLoadDevicePopulateArray.py">
+    <script file="../Scripts/YAMLLoadDevicePopulateArray.py">
       <pv_name>loc://ZONE_$(LCID)&lt;VString&gt;($(ZONE))</pv_name>
       <pv_name>loc://TYPE_$(LCID)&lt;VString&gt;($(TYPE))</pv_name>
     </script>
   </scripts>
   <widget type="embedded" version="2.0.0">
     <name>element_template</name>
-    <file>moto-ele.bob</file>
+    <file>mot_channel.bob</file>
     <width>820</width>
     <height>50</height>
     <visible>false</visible>

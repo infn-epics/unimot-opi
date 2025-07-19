@@ -1267,7 +1267,7 @@
         <exp bool_exp="pv0&gt;0">
           <value>true</value>
         </exp>
-        <exp bool_exp="pv&lt;=0">
+        <exp bool_exp="pv0&lt;=0">
           <value>false</value>
         </exp>
         <pv_name>$(DEVICE):EGU2MM</pv_name>
