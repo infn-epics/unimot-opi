@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-07-04 18:24:50 by andreamichelotti-->
 <display version="2.0.0">
-  <width>370</width>
-  <height>542</height>
+  <width>374</width>
+  <height>570</height>
   <background_color>
     <color name="IO Grid" red="215" green="215" blue="215">
     </color>
@@ -17,7 +16,7 @@
     <x>12</x>
     <y>50</y>
     <width>58</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -73,7 +72,7 @@
     <x>36</x>
     <y>107</y>
     <width>56</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -130,7 +129,7 @@
     <x>36</x>
     <y>130</y>
     <width>38</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -187,7 +186,7 @@
     <x>36</x>
     <y>153</y>
     <width>39</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -244,7 +243,7 @@
     <x>171</x>
     <y>107</y>
     <width>22</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -301,7 +300,7 @@
     <x>171</x>
     <y>130</y>
     <width>21</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -351,7 +350,7 @@
     <x>22</x>
     <y>272</y>
     <width>33</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -385,7 +384,7 @@
     <pv_name>$(DEVICE):ACTX_SP</pv_name>
     <text>START</text>
     <x>3</x>
-    <y>442</y>
+    <y>468</y>
     <width>135</width>
     <height>31</height>
     <font>
@@ -424,7 +423,7 @@
     <pv_name>$(DEVICE):ACTX_SP</pv_name>
     <text>STOP</text>
     <x>3</x>
-    <y>477</y>
+    <y>505</y>
     <width>135</width>
     <height>55</height>
     <font>
@@ -518,7 +517,7 @@
     <x>128</x>
     <y>156</y>
     <width>80</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -684,8 +683,8 @@
     <pv_name>$(DEVICE):MSGS</pv_name>
     <text>MOTOR
  RESET</text>
-    <x>260</x>
-    <y>477</y>
+    <x>264</x>
+    <y>505</y>
     <width>107</width>
     <height>55</height>
     <font>
@@ -738,7 +737,7 @@
     <x>36</x>
     <y>176</y>
     <width>24</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -794,7 +793,7 @@
     <x>36</x>
     <y>199</y>
     <width>29</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1062,7 +1061,7 @@
     <x>23</x>
     <y>379</y>
     <width>46</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1145,7 +1144,7 @@
     <x>25</x>
     <y>318</y>
     <width>17</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1245,7 +1244,7 @@
     <x>243</x>
     <y>156</y>
     <width>110</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1360,7 +1359,7 @@
     <x>25</x>
     <y>346</y>
     <width>44</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1382,5 +1381,137 @@
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo_poi</name>
+    <pv_name>$(DEVICE):POI_SEL</pv_name>
+    <x>74</x>
+    <y>407</y>
+    <width>171</width>
+    <height>28</height>
+    <visible>false</visible>
+    <font>
+      <font name="IO Output 1" family="Noto Sans" style="BOLD" size="10.891089108910892">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pvInt0&gt;=0">
+          <value>true</value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_29</name>
+    <text>POI</text>
+    <x>23</x>
+    <y>407</y>
+    <width>19</width>
+    <height>14</height>
+    <visible>false</visible>
+    <font>
+      <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pvInt0&gt;=0">
+          <value>true</value>
+        </exp>
+        <pv_name>$(DEVICE):POI_SEL</pv_name>
+      </rule>
+    </rules>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>PoiGO</name>
+    <actions>
+      <action type="write_pv">
+        <description>PoiGO</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <pv_name>$(DEVICE):POI_GO</pv_name>
+    <text>POI GO</text>
+    <x>248</x>
+    <y>407</y>
+    <width>118</width>
+    <height>28</height>
+    <visible>false</visible>
+    <font>
+      <font family="Sans" style="BOLD" size="10.891089108910892">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="IO Grid" red="215" green="215" blue="215">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pvInt0&gt;=0">
+          <value>true</value>
+        </exp>
+        <pv_name>$(DEVICE):POI_SEL</pv_name>
+      </rule>
+    </rules>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Poicurr</name>
+    <pv_name>$(DEVICE):POI_CURR</pv_name>
+    <x>74</x>
+    <y>434</y>
+    <width>171</width>
+    <height>28</height>
+    <visible>false</visible>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="visibility" prop_id="visible" out_exp="false">
+        <exp bool_exp="pvStr0!=&quot;&quot;">
+          <value>true</value>
+        </exp>
+        <pv_name>$(pv_name)</pv_name>
+      </rule>
+    </rules>
+    <border_width>1</border_width>
   </widget>
 </display>
