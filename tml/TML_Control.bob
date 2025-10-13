@@ -15,8 +15,8 @@
     <text>Connection</text>
     <x>12</x>
     <y>50</y>
-    <width>58</width>
-    <height>15</height>
+    <width>64</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -71,8 +71,8 @@
     <text>Connected</text>
     <x>36</x>
     <y>107</y>
-    <width>56</width>
-    <height>15</height>
+    <width>61</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -128,8 +128,8 @@
     <text>Moving</text>
     <x>36</x>
     <y>130</y>
-    <width>38</width>
-    <height>15</height>
+    <width>42</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -185,8 +185,8 @@
     <text>Waiting</text>
     <x>36</x>
     <y>153</y>
-    <width>39</width>
-    <height>15</height>
+    <width>43</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -243,7 +243,7 @@
     <x>171</x>
     <y>107</y>
     <width>22</width>
-    <height>15</height>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -299,8 +299,8 @@
     <text>LSP</text>
     <x>171</x>
     <y>130</y>
-    <width>21</width>
-    <height>15</height>
+    <width>20</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -349,8 +349,8 @@
     <text>Action</text>
     <x>22</x>
     <y>272</y>
-    <width>33</width>
-    <height>15</height>
+    <width>36</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -516,8 +516,8 @@
     <text>Current Position</text>
     <x>128</x>
     <y>156</y>
-    <width>80</width>
-    <height>15</height>
+    <width>92</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -736,8 +736,8 @@
     <text>Error</text>
     <x>36</x>
     <y>176</y>
-    <width>24</width>
-    <height>15</height>
+    <width>29</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -792,8 +792,8 @@
     <text>Reset</text>
     <x>36</x>
     <y>199</y>
-    <width>29</width>
-    <height>15</height>
+    <width>31</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1029,7 +1029,7 @@
     </rules>
     <enabled>false</enabled>
     <show_confirm_dialog>true</show_confirm_dialog>
-    <password>nelmezzo</password>
+    <password>eupraxia</password>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_12</name>
@@ -1060,8 +1060,8 @@
     <text>TML Sub</text>
     <x>23</x>
     <y>379</y>
-    <width>46</width>
-    <height>15</height>
+    <width>48</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1143,8 +1143,8 @@
     <text>Set</text>
     <x>25</x>
     <y>318</y>
-    <width>17</width>
-    <height>15</height>
+    <width>18</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1243,8 +1243,8 @@
     <text>Current Position (mm)</text>
     <x>243</x>
     <y>156</y>
-    <width>110</width>
-    <height>15</height>
+    <width>124</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1358,8 +1358,8 @@
     <text>Set(mm)</text>
     <x>25</x>
     <y>346</y>
-    <width>44</width>
-    <height>15</height>
+    <width>47</width>
+    <height>17</height>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
       </font>
@@ -1418,8 +1418,8 @@
     <text>POI</text>
     <x>23</x>
     <y>407</y>
-    <width>19</width>
-    <height>14</height>
+    <width>21</width>
+    <height>17</height>
     <visible>false</visible>
     <font>
       <font name="IO Label 1" family="Noto Sans" style="REGULAR" size="9.900990099009901">
