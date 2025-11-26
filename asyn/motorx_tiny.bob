@@ -30,7 +30,7 @@
         <exp bool_exp="!(pv0==0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).DMOV</pv_name>
+        <pv_name>$(P):$(R).DMOV</pv_name>
       </rule>
     </rules>
   </widget>
@@ -53,13 +53,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LVIO</pv_name>
+        <pv_name>$(P):$(R).LVIO</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #14</name>
-    <pv_name>$(P)$(M).VAL</pv_name>
+    <pv_name>$(P):$(R).VAL</pv_name>
     <x>14</x>
     <y>54</y>
     <width>98</width>
@@ -97,7 +97,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
@@ -121,8 +121,8 @@
         <exp bool_exp="!(pv0!==0||pv1==7)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
-        <pv_name>$(P)$(M).STAT</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
+        <pv_name>$(P):$(R).STAT</pv_name>
       </rule>
     </rules>
   </widget>
@@ -145,7 +145,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LLS</pv_name>
+        <pv_name>$(P):$(R).LLS</pv_name>
       </rule>
     </rules>
   </widget>
@@ -168,13 +168,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).HLS</pv_name>
+        <pv_name>$(P):$(R).HLS</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #33</name>
-    <pv_name>$(P)$(M).RBV</pv_name>
+    <pv_name>$(P):$(R).RBV</pv_name>
     <x>16</x>
     <y>32</y>
     <width>94</width>
@@ -247,12 +247,12 @@
     <name>message button #43</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).STOP</pv_name>
+        <pv_name>$(P):$(R).STOP</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).STOP</pv_name>
+    <pv_name>$(P):$(R).STOP</pv_name>
     <text>STOP</text>
     <x>70</x>
     <y>82</y>
@@ -286,7 +286,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
@@ -311,13 +311,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #54</name>
-    <pv_name>$(P)$(M).DESC</pv_name>
+    <pv_name>$(P):$(R).DESC</pv_name>
     <width>128</width>
     <height>14</height>
     <foreground_color>
@@ -351,7 +351,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #61</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <y>18</y>
     <width>128</width>
     <height>10</height>

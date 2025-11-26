@@ -55,7 +55,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #16</name>
-    <pv_name>$(P)$(M).DESC</pv_name>
+    <pv_name>$(P):$(R).DESC</pv_name>
     <x>4</x>
     <y>5</y>
     <width>153</width>
@@ -77,7 +77,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #20</name>
-    <pv_name>$(P)$(M).DTYP</pv_name>
+    <pv_name>$(P):$(R).DTYP</pv_name>
     <x>289</x>
     <y>5</y>
     <font>
@@ -98,7 +98,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #24</name>
-    <text>$(P)$(M)</text>
+    <text>$(P):$(R)</text>
     <x>171</x>
     <y>5</y>
     <width>51</width>
@@ -126,7 +126,7 @@
   </widget>
   <widget type="byte_monitor" version="2.0.0">
     <name>bar #30</name>
-    <pv_name>$(P)$(M).MSTA</pv_name>
+    <pv_name>$(P):$(R).MSTA</pv_name>
     <x>5</x>
     <y>62</y>
     <width>37</width>

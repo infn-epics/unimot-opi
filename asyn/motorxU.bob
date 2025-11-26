@@ -30,12 +30,12 @@
     <name>message button #9</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).STOP</pv_name>
+        <pv_name>$(P):$(R).STOP</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).STOP</pv_name>
+    <pv_name>$(P):$(R).STOP</pv_name>
     <text>STOP</text>
     <x>5</x>
     <y>257</y>
@@ -102,12 +102,12 @@
     <name>message button #20</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).SSET</pv_name>
+        <pv_name>$(P):$(R).SSET</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).SSET</pv_name>
+    <pv_name>$(P):$(R).SSET</pv_name>
     <text>redefine</text>
     <x>62</x>
     <y>236</y>
@@ -122,12 +122,12 @@
     <name>message button #23</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).SUSE</pv_name>
+        <pv_name>$(P):$(R).SUSE</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).SUSE</pv_name>
+    <pv_name>$(P):$(R).SUSE</pv_name>
     <text>operate</text>
     <x>118</x>
     <y>236</y>
@@ -159,7 +159,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
@@ -179,7 +179,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #33</name>
-    <pv_name>$(P)$(M).VELO</pv_name>
+    <pv_name>$(P):$(R).VELO</pv_name>
     <x>4</x>
     <y>202</y>
     <width>64</width>
@@ -222,12 +222,12 @@
     <name>message button #40</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M)_vCh.A</pv_name>
+        <pv_name>$(P):$(R)_vCh.A</pv_name>
         <value>0.1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M)_vCh.A</pv_name>
+    <pv_name>$(P):$(R)_vCh.A</pv_name>
     <text>speed x0.1</text>
     <x>3</x>
     <y>215</y>
@@ -246,12 +246,12 @@
     <name>message button #43</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M)_vCh.A</pv_name>
+        <pv_name>$(P):$(R)_vCh.A</pv_name>
         <value>10</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M)_vCh.A</pv_name>
+    <pv_name>$(P):$(R)_vCh.A</pv_name>
     <text>speed x10</text>
     <x>90</x>
     <y>215</y>
@@ -268,7 +268,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #46</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>83</x>
     <y>202</y>
     <width>64</width>
@@ -308,12 +308,12 @@
     <name>message button #53</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M)_twCh.A</pv_name>
+        <pv_name>$(P):$(R)_twCh.A</pv_name>
         <value>0.1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M)_twCh.A</pv_name>
+    <pv_name>$(P):$(R)_twCh.A</pv_name>
     <text>x0.1</text>
     <x>3</x>
     <y>174</y>
@@ -328,12 +328,12 @@
     <name>message button #56</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M)_twCh.A</pv_name>
+        <pv_name>$(P):$(R)_twCh.A</pv_name>
         <value>10</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M)_twCh.A</pv_name>
+    <pv_name>$(P):$(R)_twCh.A</pv_name>
     <text>x10</text>
     <x>90</x>
     <y>174</y>
@@ -348,12 +348,12 @@
     <name>message button #59</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).TWR</pv_name>
+        <pv_name>$(P):$(R).TWR</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).TWR</pv_name>
+    <pv_name>$(P):$(R).TWR</pv_name>
     <text>-</text>
     <x>6</x>
     <y>132</y>
@@ -368,12 +368,12 @@
     <name>message button #62</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).TWF</pv_name>
+        <pv_name>$(P):$(R).TWF</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).TWF</pv_name>
+    <pv_name>$(P):$(R).TWF</pv_name>
     <text>+</text>
     <x>141</x>
     <y>132</y>
@@ -405,7 +405,7 @@
         <exp bool_exp="!(pv0==0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).DMOV</pv_name>
+        <pv_name>$(P):$(R).DMOV</pv_name>
       </rule>
     </rules>
   </widget>
@@ -430,13 +430,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #73</name>
-    <pv_name>$(P)$(M).TWV</pv_name>
+    <pv_name>$(P):$(R).TWV</pv_name>
     <x>36</x>
     <y>132</y>
     <font>
@@ -472,13 +472,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LVIO</pv_name>
+        <pv_name>$(P):$(R).LVIO</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #81</name>
-    <pv_name>$(P)$(M).DESC</pv_name>
+    <pv_name>$(P):$(R).DESC</pv_name>
     <x>5</x>
     <width>170</width>
     <font>
@@ -500,7 +500,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #85</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>5</x>
     <y>32</y>
     <width>170</width>
@@ -539,7 +539,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #92</name>
-    <text>($(P)$(M))</text>
+    <text>($(P):$(R))</text>
     <x>5</x>
     <y>21</y>
     <width>170</width>
@@ -573,7 +573,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).HLS</pv_name>
+        <pv_name>$(P):$(R).HLS</pv_name>
       </rule>
     </rules>
   </widget>
@@ -596,7 +596,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LLS</pv_name>
+        <pv_name>$(P):$(R).LLS</pv_name>
       </rule>
     </rules>
   </widget>
@@ -619,7 +619,7 @@
         <exp bool_exp="!(pv0==0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).DMOV</pv_name>
+        <pv_name>$(P):$(R).DMOV</pv_name>
       </rule>
     </rules>
   </widget>
@@ -642,7 +642,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LVIO</pv_name>
+        <pv_name>$(P):$(R).LVIO</pv_name>
       </rule>
     </rules>
   </widget>
@@ -665,13 +665,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #115</name>
-    <pv_name>$(P)$(M).VAL</pv_name>
+    <pv_name>$(P):$(R).VAL</pv_name>
     <x>16</x>
     <y>84</y>
     <width>145</width>
@@ -709,7 +709,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
@@ -734,14 +734,14 @@
         <exp bool_exp="!(pv0!==0||pv1==7)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
-        <pv_name>$(P)$(M).STAT</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
+        <pv_name>$(P):$(R).STAT</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #127</name>
-    <pv_name>$(P)$(M).RBV</pv_name>
+    <pv_name>$(P):$(R).RBV</pv_name>
     <x>19</x>
     <y>60</y>
     <width>139</width>
@@ -784,13 +784,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #135</name>
-    <pv_name>$(P)$(M).HLM</pv_name>
+    <pv_name>$(P):$(R).HLM</pv_name>
     <x>13</x>
     <y>44</y>
     <width>149</width>
@@ -814,7 +814,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #139</name>
-    <pv_name>$(P)$(M).LLM</pv_name>
+    <pv_name>$(P):$(R).LLM</pv_name>
     <x>13</x>
     <y>112</y>
     <width>149</width>
@@ -857,7 +857,7 @@
         <exp bool_exp="!(pv0==7)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).STAT</pv_name>
+        <pv_name>$(P):$(R).STAT</pv_name>
       </rule>
     </rules>
   </widget>
@@ -882,7 +882,7 @@
         <exp bool_exp="!(pv0==7)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).STAT</pv_name>
+        <pv_name>$(P):$(R).STAT</pv_name>
       </rule>
     </rules>
   </widget>

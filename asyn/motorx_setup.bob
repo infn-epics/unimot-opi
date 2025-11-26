@@ -116,7 +116,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #29</name>
-    <pv_name>$(P)$(M).DESC</pv_name>
+    <pv_name>$(P):$(R).DESC</pv_name>
     <width>200</width>
     <height>27</height>
     <font>
@@ -137,7 +137,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #33</name>
-    <text>($(P)$(M))</text>
+    <text>($(P):$(R))</text>
     <x>200</x>
     <width>200</width>
     <height>14</height>
@@ -145,7 +145,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #36</name>
-    <pv_name>$(P)$(M).DTYP</pv_name>
+    <pv_name>$(P):$(R).DTYP</pv_name>
     <x>200</x>
     <y>13</y>
     <width>200</width>
@@ -213,7 +213,7 @@
     <transparent>true</transparent>
     <widget type="textentry" version="3.0.0">
       <name>text entry #53</name>
-      <pv_name>$(P)$(M).HLM</pv_name>
+      <pv_name>$(P):$(R).HLM</pv_name>
       <x>38</x>
       <height>22</height>
       <font>
@@ -230,7 +230,7 @@
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>text entry #57</name>
-      <pv_name>$(P)$(M).DHLM</pv_name>
+      <pv_name>$(P):$(R).DHLM</pv_name>
       <x>142</x>
       <height>22</height>
       <font>
@@ -276,7 +276,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #67</name>
-    <pv_name>$(P)$(M).LLM</pv_name>
+    <pv_name>$(P):$(R).LLM</pv_name>
     <x>115</x>
     <y>61</y>
     <height>22</height>
@@ -294,7 +294,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #71</name>
-    <pv_name>$(P)$(M).DLLM</pv_name>
+    <pv_name>$(P):$(R).DLLM</pv_name>
     <x>219</x>
     <y>61</y>
     <height>22</height>
@@ -338,7 +338,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #81</name>
-    <pv_name>$(P)$(M).SMAX</pv_name>
+    <pv_name>$(P):$(R).SMAX</pv_name>
     <x>151</x>
     <y>114</y>
     <width>80</width>
@@ -357,7 +357,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #85</name>
-    <pv_name>$(P)$(M).FRAC</pv_name>
+    <pv_name>$(P):$(R).FRAC</pv_name>
     <x>191</x>
     <y>242</y>
     <width>80</width>
@@ -376,7 +376,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #89</name>
-    <pv_name>$(P)$(M).BDST</pv_name>
+    <pv_name>$(P):$(R).BDST</pv_name>
     <x>191</x>
     <y>217</y>
     <width>80</width>
@@ -395,7 +395,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #93</name>
-    <pv_name>$(P)$(M).BACC</pv_name>
+    <pv_name>$(P):$(R).BACC</pv_name>
     <x>191</x>
     <y>192</y>
     <width>80</width>
@@ -414,7 +414,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #97</name>
-    <pv_name>$(P)$(M).SBAK</pv_name>
+    <pv_name>$(P):$(R).SBAK</pv_name>
     <x>191</x>
     <y>142</y>
     <width>80</width>
@@ -433,7 +433,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #101</name>
-    <pv_name>$(P)$(M).SBAS</pv_name>
+    <pv_name>$(P):$(R).SBAS</pv_name>
     <x>151</x>
     <y>167</y>
     <width>80</width>
@@ -452,7 +452,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #105</name>
-    <pv_name>$(P)$(M).ACCL</pv_name>
+    <pv_name>$(P):$(R).ACCL</pv_name>
     <x>111</x>
     <y>192</y>
     <width>80</width>
@@ -471,7 +471,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #109</name>
-    <pv_name>$(P)$(M).S</pv_name>
+    <pv_name>$(P):$(R).S</pv_name>
     <x>111</x>
     <y>142</y>
     <width>80</width>
@@ -579,7 +579,7 @@
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #134</name>
-    <pv_name>$(P)$(M).DIR</pv_name>
+    <pv_name>$(P):$(R).DIR</pv_name>
     <x>316</x>
     <y>217</y>
     <width>80</width>
@@ -596,7 +596,7 @@
   </widget>
   <widget type="combo" version="2.0.0">
     <name>menu #137</name>
-    <pv_name>$(P)$(M).FOFF</pv_name>
+    <pv_name>$(P):$(R).FOFF</pv_name>
     <x>316</x>
     <y>191</y>
     <width>80</width>
@@ -609,7 +609,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #140</name>
-    <pv_name>$(P)$(M).OFF</pv_name>
+    <pv_name>$(P):$(R).OFF</pv_name>
     <x>316</x>
     <y>166</y>
     <width>80</width>
@@ -628,7 +628,7 @@
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #144</name>
-    <pv_name>$(P)$(M).SET</pv_name>
+    <pv_name>$(P):$(R).SET</pv_name>
     <x>316</x>
     <y>143</y>
     <width>80</width>
@@ -658,7 +658,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #150</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>121</x>
     <y>221</y>
     <width>65</width>
@@ -746,7 +746,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #169</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>171</x>
     <y>378</y>
     <width>70</width>
@@ -770,7 +770,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #173</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>171</x>
     <y>428</y>
     <width>70</width>
@@ -794,7 +794,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #177</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>171</x>
     <y>403</y>
     <width>70</width>
@@ -831,7 +831,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #184</name>
-    <pv_name>$(P)$(M).UREV</pv_name>
+    <pv_name>$(P):$(R).UREV</pv_name>
     <x>91</x>
     <y>375</y>
     <width>80</width>
@@ -858,7 +858,7 @@
     <transparent>true</transparent>
     <widget type="textentry" version="3.0.0">
       <name>text entry #191</name>
-      <pv_name>$(P)$(M).ERES</pv_name>
+      <pv_name>$(P):$(R).ERES</pv_name>
       <x>88</x>
       <width>80</width>
       <height>25</height>
@@ -897,7 +897,7 @@
     <transparent>true</transparent>
     <widget type="textentry" version="3.0.0">
       <name>text entry #201</name>
-      <pv_name>$(P)$(M).RRES</pv_name>
+      <pv_name>$(P):$(R).RRES</pv_name>
       <x>88</x>
       <width>80</width>
       <height>25</height>
@@ -928,7 +928,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #208</name>
-    <pv_name>$(P)$(M).SREV</pv_name>
+    <pv_name>$(P):$(R).SREV</pv_name>
     <x>91</x>
     <y>350</y>
     <width>80</width>
@@ -947,7 +947,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #212</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>91</x>
     <y>325</y>
     <width>80</width>
@@ -966,7 +966,7 @@
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #216</name>
-    <pv_name>$(P)$(M).UEIP</pv_name>
+    <pv_name>$(P):$(R).UEIP</pv_name>
     <x>326</x>
     <y>403</y>
     <width>70</width>
@@ -996,7 +996,7 @@
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #222</name>
-    <pv_name>$(P)$(M).URIP</pv_name>
+    <pv_name>$(P):$(R).URIP</pv_name>
     <x>326</x>
     <y>428</y>
     <width>70</width>
@@ -1107,7 +1107,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #246</name>
-    <pv_name>$(P)$(M).VERS</pv_name>
+    <pv_name>$(P):$(R).VERS</pv_name>
     <x>316</x>
     <y>505</y>
     <width>80</width>
@@ -1130,7 +1130,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #250</name>
-    <pv_name>$(P)$(M).CARD</pv_name>
+    <pv_name>$(P):$(R).CARD</pv_name>
     <x>316</x>
     <y>525</y>
     <width>80</width>
@@ -1153,7 +1153,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #254</name>
-    <pv_name>$(P)$(M).PREC</pv_name>
+    <pv_name>$(P):$(R).PREC</pv_name>
     <x>316</x>
     <y>540</y>
     <width>80</width>
@@ -1172,7 +1172,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #258</name>
-    <pv_name>$(P)$(M).RTRY</pv_name>
+    <pv_name>$(P):$(R).RTRY</pv_name>
     <x>121</x>
     <y>530</y>
     <width>50</width>
@@ -1191,7 +1191,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #262</name>
-    <pv_name>$(P)$(M).RDBD</pv_name>
+    <pv_name>$(P):$(R).RDBD</pv_name>
     <x>91</x>
     <y>505</y>
     <width>80</width>
@@ -1299,7 +1299,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #282</name>
-    <pv_name>$(P)$(M).RDBL</pv_name>
+    <pv_name>$(P):$(R).RDBL</pv_name>
     <x>91</x>
     <y>450</y>
     <width>200</width>
@@ -1331,7 +1331,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #289</name>
-    <pv_name>$(P)$(M).DLY</pv_name>
+    <pv_name>$(P):$(R).DLY</pv_name>
     <x>301</x>
     <y>374</y>
     <width>80</width>
@@ -1414,7 +1414,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #309</name>
-    <pv_name>$(P)$(M).HVEL</pv_name>
+    <pv_name>$(P):$(R).HVEL</pv_name>
     <x>191</x>
     <y>267</y>
     <width>80</width>
@@ -1466,7 +1466,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #321</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <x>97</x>
     <y>271</y>
     <width>65</width>
@@ -1512,7 +1512,7 @@
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #331</name>
-    <pv_name>$(P)$(M).NTM</pv_name>
+    <pv_name>$(P):$(R).NTM</pv_name>
     <x>315</x>
     <y>568</y>
     <width>70</width>
@@ -1542,7 +1542,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #337</name>
-    <pv_name>$(P)$(M).NTMF</pv_name>
+    <pv_name>$(P):$(R).NTMF</pv_name>
     <x>316</x>
     <y>590</y>
     <width>80</width>

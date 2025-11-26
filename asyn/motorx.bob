@@ -44,13 +44,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #13</name>
-    <pv_name>$(P)$(M).DESC</pv_name>
+    <pv_name>$(P):$(R).DESC</pv_name>
     <width>116</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -88,7 +88,7 @@
         <exp bool_exp="!(pv0==0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).DMOV</pv_name>
+        <pv_name>$(P):$(R).DMOV</pv_name>
       </rule>
     </rules>
   </widget>
@@ -111,7 +111,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LVIO</pv_name>
+        <pv_name>$(P):$(R).LVIO</pv_name>
       </rule>
     </rules>
   </widget>
@@ -134,7 +134,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
@@ -173,7 +173,7 @@
         <exp bool_exp="!(pv0==0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).DMOV</pv_name>
+        <pv_name>$(P):$(R).DMOV</pv_name>
       </rule>
     </rules>
   </widget>
@@ -198,7 +198,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
@@ -230,12 +230,12 @@
     <name>message button #42</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M):scanParms.GO</pv_name>
+        <pv_name>$(P):$(R):scanParms.GO</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M):scanParms.GO</pv_name>
+    <pv_name>$(P):$(R):scanParms.GO</pv_name>
     <text>Go</text>
     <x>52</x>
     <y>178</y>
@@ -276,12 +276,12 @@
     <name>message button #51</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M):scanParms.LOAD</pv_name>
+        <pv_name>$(P):$(R):scanParms.LOAD</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M):scanParms.LOAD</pv_name>
+    <pv_name>$(P):$(R):scanParms.LOAD</pv_name>
     <text>Ld</text>
     <x>30</x>
     <y>178</y>
@@ -296,12 +296,12 @@
     <name>message button #54</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).STOP</pv_name>
+        <pv_name>$(P):$(R).STOP</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).STOP</pv_name>
+    <pv_name>$(P):$(R).STOP</pv_name>
     <text>STOP</text>
     <x>60</x>
     <y>156</y>
@@ -372,12 +372,12 @@
     <name>message button #65</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).TWR</pv_name>
+        <pv_name>$(P):$(R).TWR</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).TWR</pv_name>
+    <pv_name>$(P):$(R).TWR</pv_name>
     <text>&lt;</text>
     <x>2</x>
     <y>99</y>
@@ -390,7 +390,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #68</name>
-    <pv_name>$(P)$(M).TWV</pv_name>
+    <pv_name>$(P):$(R).TWV</pv_name>
     <x>28</x>
     <y>99</y>
     <width>60</width>
@@ -410,12 +410,12 @@
     <name>message button #71</name>
     <actions>
       <action type="write_pv">
-        <pv_name>$(P)$(M).TWF</pv_name>
+        <pv_name>$(P):$(R).TWF</pv_name>
         <value>1</value>
         <description>Write</description>
       </action>
     </actions>
-    <pv_name>$(P)$(M).TWF</pv_name>
+    <pv_name>$(P):$(R).TWF</pv_name>
     <text>&gt;</text>
     <x>89</x>
     <y>99</y>
@@ -428,7 +428,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #74</name>
-    <pv_name>$(P)$(M).VAL</pv_name>
+    <pv_name>$(P):$(R).VAL</pv_name>
     <x>9</x>
     <y>69</y>
     <width>98</width>
@@ -463,7 +463,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LLS</pv_name>
+        <pv_name>$(P):$(R).LLS</pv_name>
       </rule>
     </rules>
   </widget>
@@ -486,13 +486,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).HLS</pv_name>
+        <pv_name>$(P):$(R).HLS</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #85</name>
-    <pv_name>$(P)$(M).EGU</pv_name>
+    <pv_name>$(P):$(R).EGU</pv_name>
     <y>32</y>
     <width>116</width>
     <height>12</height>
@@ -529,7 +529,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #91</name>
-    <text>($(P)$(M))</text>
+    <text>($(P):$(R))</text>
     <y>21</y>
     <width>116</width>
     <height>10</height>
@@ -564,7 +564,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
       </rule>
     </rules>
   </widget>
@@ -589,14 +589,14 @@
         <exp bool_exp="!(pv0!==0||pv1==7)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).SET</pv_name>
-        <pv_name>$(P)$(M).STAT</pv_name>
+        <pv_name>$(P):$(R).SET</pv_name>
+        <pv_name>$(P):$(R).STAT</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>text update #102</name>
-    <pv_name>$(P)$(M).RBV</pv_name>
+    <pv_name>$(P):$(R).RBV</pv_name>
     <x>11</x>
     <y>45</y>
     <width>94</width>
@@ -639,7 +639,7 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M).LVIO</pv_name>
+        <pv_name>$(P):$(R).LVIO</pv_name>
       </rule>
     </rules>
   </widget>
@@ -664,13 +664,13 @@
         <exp bool_exp="!(pv0!=0)">
           <value>false</value>
         </exp>
-        <pv_name>$(P)$(M)_able.VAL</pv_name>
+        <pv_name>$(P):$(R)_able.VAL</pv_name>
       </rule>
     </rules>
   </widget>
   <widget type="choice" version="2.0.0">
     <name>choice button #113</name>
-    <pv_name>$(P)$(M).SET</pv_name>
+    <pv_name>$(P):$(R).SET</pv_name>
     <x>45</x>
     <y>137</y>
     <width>71</width>
