@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-07-19 14:30:18 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display</name>
   <width>820</width>
@@ -24,7 +23,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_2</name>
     <text>Readout</text>
-    <x>100</x>
+    <x>120</x>
     <width>80</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -34,7 +33,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_3</name>
     <text>LSN</text>
-    <x>289</x>
+    <x>343</x>
     <width>40</width>
     <height>30</height>
     <font>
@@ -45,7 +44,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_4</name>
     <text>LSP</text>
-    <x>326</x>
+    <x>380</x>
     <width>40</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -55,7 +54,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_5</name>
     <text>Err</text>
-    <x>361</x>
+    <x>415</x>
     <width>40</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -65,7 +64,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_6</name>
     <text>Move</text>
-    <x>392</x>
+    <x>446</x>
     <width>40</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -75,7 +74,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_7</name>
     <text>Abs Move</text>
-    <x>434</x>
+    <x>488</x>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
       </font>
@@ -84,7 +83,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_8</name>
     <text>Rel Move</text>
-    <x>545</x>
+    <x>599</x>
     <width>86</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -94,7 +93,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_9</name>
     <text>Setpoint</text>
-    <x>183</x>
+    <x>203</x>
     <width>80</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -104,7 +103,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_10</name>
     <text>POI</text>
-    <x>690</x>
+    <x>710</x>
     <width>86</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -114,7 +113,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_11</name>
     <text>ZONE</text>
-    <x>776</x>
+    <x>796</x>
     <width>86</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">
@@ -124,7 +123,7 @@
   <widget type="label" version="2.0.0">
     <name>Label_12</name>
     <text>$(ZONE)</text>
-    <x>830</x>
+    <x>850</x>
     <width>86</width>
     <font>
       <font family="Liberation Sans" style="BOLD" size="16.0">

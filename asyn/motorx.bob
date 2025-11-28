@@ -3,7 +3,7 @@
   <name>motorx</name>
   <x>10</x>
   <y>10</y>
-  <width>116</width>
+  <width>275</width>
   <height>200</height>
   <background_color>
     <color red="200" green="200" blue="200">
@@ -16,8 +16,8 @@
     <text>Calib:</text>
     <x>1</x>
     <y>139</y>
-    <width>45</width>
-    <height>16</height>
+    <width>41</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -28,8 +28,8 @@
     <name>text #9</name>
     <text>Calib:</text>
     <y>138</y>
-    <width>45</width>
-    <height>16</height>
+    <width>41</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -206,9 +206,9 @@
     <name>message button #39</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P)allstop.VAL</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P)allstop.VAL</pv_name>
@@ -230,9 +230,9 @@
     <name>message button #42</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P):$(R):scanParms.GO</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P):$(R):scanParms.GO</pv_name>
@@ -276,9 +276,9 @@
     <name>message button #51</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P):$(R):scanParms.LOAD</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P):$(R):scanParms.LOAD</pv_name>
@@ -296,9 +296,9 @@
     <name>message button #54</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P):$(R).STOP</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P):$(R).STOP</pv_name>
@@ -320,38 +320,38 @@
     <name>related display #57</name>
     <actions>
       <action type="open_display">
+        <description>$(M) (Tiny)</description>
         <file>motorx_tiny.opi</file>
         <target>replace</target>
-        <description>$(M) (Tiny)</description>
       </action>
       <action type="open_display">
+        <description>$(M) (Help)</description>
         <file>motorx_help.opi</file>
         <target>tab</target>
-        <description>$(M) (Help)</description>
       </action>
       <action type="open_display">
+        <description>$(M) (Medium)</description>
         <file>motorx_more.opi</file>
         <target>tab</target>
-        <description>$(M) (Medium)</description>
       </action>
       <action type="open_display">
+        <description>$(M) (Setup)</description>
         <file>motorx_setup.opi</file>
         <target>tab</target>
-        <description>$(M) (Setup)</description>
       </action>
       <action type="open_display">
+        <description>Scan Parameters</description>
         <file>scanParms.opi</file>
         <macros>
           <PV>$(M)</PV>
           <Q>$(M)</Q>
         </macros>
         <target>tab</target>
-        <description>Scan Parameters</description>
       </action>
       <action type="open_display">
+        <description>$(M) (Debug)</description>
         <file>motorx_all.opi</file>
         <target>tab</target>
-        <description>$(M) (Debug)</description>
       </action>
     </actions>
     <text>More</text>
@@ -367,14 +367,15 @@
       <color red="51" green="153" blue="0">
       </color>
     </background_color>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>message button #65</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P):$(R).TWR</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P):$(R).TWR</pv_name>
@@ -410,9 +411,9 @@
     <name>message button #71</name>
     <actions>
       <action type="write_pv">
+        <description>Write</description>
         <pv_name>$(P):$(R).TWF</pv_name>
         <value>1</value>
-        <description>Write</description>
       </action>
     </actions>
     <pv_name>$(P):$(R).TWF</pv_name>
@@ -684,5 +685,37 @@
       <item>Item 1</item>
       <item>Item 2</item>
     </items>
+  </widget>
+  <widget type="byte_monitor" version="2.0.0">
+    <name>STATE_BIT</name>
+    <pv_name>$(P):$(R).MSTA</pv_name>
+    <x>116</x>
+    <width>159</width>
+    <height>200</height>
+    <numBits>16</numBits>
+    <horizontal>false</horizontal>
+    <labels>
+      <text>DIRECTION</text>
+      <text>DONE</text>
+      <text>PLUS_LS</text>
+      <text>HOMELS</text>
+      <text>Unused</text>
+      <text>POSITION</text>
+      <text>SLIP_STALL</text>
+      <text>HOME</text>
+      <text>PRESENT</text>
+      <text>PROBLEM</text>
+      <text>MOVING</text>
+      <text>GAIN_SUPPORT</text>
+      <text>COMM_ERR</text>
+      <text>MINUS_LS</text>
+      <text>HOMED</text>
+      <text>Bit15</text>
+    </labels>
+    <tooltip>MSTA Bit Status:
+0:DIRECTION 1:DONE 2:PLUS_LS 3:HOMELS
+4:Unused 5:POSITION 6:SLIP_STALL 7:HOME
+8:PRESENT 9:PROBLEM 10:MOVING 11:GAIN_SUPPORT
+12:COMM_ERR 13:MINUS_LS 14:HOMED 15:Reserved</tooltip>
   </widget>
 </display>

@@ -24,7 +24,7 @@
       <text>$(R)</text>
       <width>150</width>
       <font>
-        <font family="Liberation Sans" style="BOLD" size="14.0">
+        <font family="Liberation Sans" style="BOLD" size="12.0">
         </font>
       </font>
       <background_color>
@@ -36,7 +36,7 @@
     <widget type="textupdate" version="2.0.0">
       <name>Text Update</name>
       <pv_name>$(P):$(R).RBV</pv_name>
-      <x>79</x>
+      <x>118</x>
     </widget>
     <widget type="action_button" version="3.0.0">
       <name>Label_2</name>
@@ -66,26 +66,26 @@
     <widget type="led" version="2.0.0">
       <name>LED_1</name>
       <pv_name>$(P):$(R).HLS</pv_name>
-      <x>330</x>
+      <x>369</x>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Relative</name>
       <pv_name>$(P):$(R).RLV</pv_name>
-      <x>539</x>
+      <x>578</x>
       <vertical_alignment>0</vertical_alignment>
       <wrap_words>true</wrap_words>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Absolute</name>
       <pv_name>$(P):$(R).VAL</pv_name>
-      <x>429</x>
+      <x>468</x>
       <vertical_alignment>0</vertical_alignment>
       <wrap_words>true</wrap_words>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_3</name>
       <pv_name>$(P):$(R).MOVN</pv_name>
-      <x>398</x>
+      <x>437</x>
       <on_color>
         <color name="OK" red="0" green="255" blue="0">
         </color>
@@ -95,7 +95,7 @@
       <name>ERROR_LED</name>
       <pv_name>$(P):$(R).MSTA</pv_name>
       <bit>9</bit>
-      <x>359</x>
+      <x>398</x>
       <on_color>
         <color name="MAJOR" red="255" green="0" blue="0">
         </color>
@@ -118,7 +118,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="led" version="2.0.0">
       <name>LED</name>
       <pv_name>$(P):$(R).LLS</pv_name>
-      <x>301</x>
+      <x>340</x>
       <on_color>
         <color name="MAJOR" red="255" green="0" blue="0">
         </color>
@@ -127,7 +127,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="combo" version="2.0.0">
       <name>Action Button_1</name>
       <pv_name>$(P):$(R).CNEN</pv_name>
-      <x>280</x>
+      <x>319</x>
       <y>20</y>
       <width>50</width>
       <height>20</height>
@@ -192,7 +192,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
       </actions>
       <pv_name>$(P):$(R).CMD</pv_name>
       <text>Cmd</text>
-      <x>379</x>
+      <x>418</x>
       <y>20</y>
       <width>50</width>
       <height>20</height>
@@ -204,7 +204,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="combo" version="2.0.0">
       <name>Action Button</name>
       <pv_name>$(P):$(R).SPMG</pv_name>
-      <x>330</x>
+      <x>369</x>
       <y>20</y>
       <width>50</width>
       <height>20</height>
@@ -223,7 +223,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     </widget>
     <widget type="combo" version="2.0.0">
       <name>Poisel</name>
-      <pv_name>$(P):$(R).POI_SEL</pv_name>
+      <pv_name>$(P):$(R):POI_SEL</pv_name>
       <x>644</x>
       <width>95</width>
       <height>20</height>
@@ -258,7 +258,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
           <target>window</target>
         </action>
       </actions>
-      <pv_name>$(P):$(R).POI_GO</pv_name>
+      <pv_name>$(P):$(R):POI_GO</pv_name>
       <text>Poi..</text>
       <x>746</x>
       <width>50</width>
@@ -276,7 +276,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Poicurr</name>
-      <pv_name>$(P):$(R).POI_CURR</pv_name>
+      <pv_name>$(P):$(R):POI_CURR</pv_name>
       <x>644</x>
       <y>20</y>
       <visible>false</visible>
@@ -298,10 +298,10 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
       </rules>
       <border_width>1</border_width>
     </widget>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update_2</name>
-    <pv_name>$(P):$(R).VAL</pv_name>
-    <x>180</x>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>$(P):$(R).VAL</pv_name>
+      <x>218</x>
+    </widget>
   </widget>
 </display>
