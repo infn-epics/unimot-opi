@@ -3,9 +3,9 @@
 <display version="2.0.0">
   <name>Motor</name>
   <macros>
-    <DEVICE>Motor Thorlabs - Z825BV</DEVICE>
-    <P>Motor:</P>
-    <M>Thorlabs</M>
+    <TITLE>$(R) ($(TYPE)) Zone: $(ZONE)</TITLE>
+    <P>$(P)</P>
+    <M>:$(R)</M>
   </macros>
   <width>1682</width>
   <height>890</height>
@@ -35,7 +35,7 @@
   <widget type="label" version="2.0.0">
     <name>Title label</name>
     <class>FLAME_Header</class>
-    <text>$(DEVICE)</text>
+    <text>$(TITLE)</text>
     <x>10</x>
     <y use_class="true">0</y>
     <width>1680</width>
