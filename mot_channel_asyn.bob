@@ -22,9 +22,9 @@
     <widget type="label" version="2.0.0">
       <name>Label_1</name>
       <text>$(R)</text>
-      <width>150</width>
+      <width>179</width>
       <font>
-        <font family="Liberation Sans" style="BOLD" size="12.0">
+        <font family="Liberation Sans" style="BOLD" size="11.0">
         </font>
       </font>
       <background_color>
