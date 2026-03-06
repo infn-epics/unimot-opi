@@ -3375,4 +3375,90 @@
     <transparent>false</transparent>
     <horizontal_alignment>1</horizontal_alignment>
   </widget>
+  <widget type="label" version="2.0.0">
+    <name>text_hvel_label</name>
+    <class>FLAME_Label</class>
+    <text>Home speed:</text>
+    <x>3</x>
+    <y>542</y>
+    <width>78</width>
+    <height>19</height>
+    <font use_class="true">
+      <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="FLAME Text Main" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text_entry_hvel</name>
+    <class>FLAME_TextEntry</class>
+    <pv_name>$(P)$(M).HVEL</pv_name>
+    <x>114</x>
+    <y>542</y>
+    <height use_class="true">22</height>
+    <font use_class="true">
+      <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="FLAME Text Main" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="FLAME BackgroundSetpoint" red="250" green="250" blue="250">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text_hacc_label</name>
+    <class>FLAME_Label</class>
+    <text>Home accel.:</text>
+    <x>3</x>
+    <y>568</y>
+    <width>78</width>
+    <height>19</height>
+    <font use_class="true">
+      <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="FLAME Text Main" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
+      </color>
+    </background_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text_entry_hacc</name>
+    <class>FLAME_TextEntry</class>
+    <pv_name>$(P)$(M).HACC</pv_name>
+    <x>114</x>
+    <y>568</y>
+    <height use_class="true">22</height>
+    <font use_class="true">
+      <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="FLAME Text Main" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="FLAME BackgroundSetpoint" red="250" green="250" blue="250">
+      </color>
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
 </display>

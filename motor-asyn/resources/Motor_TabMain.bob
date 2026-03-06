@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-04-19 13:38:02 by psmid-->
 <display version="2.0.0">
   <name>motor_main</name>
   <x>10</x>
@@ -26,15 +25,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -45,9 +44,9 @@
       <class>FLAME_ActionButton</class>
       <actions>
         <action type="open_display">
+          <description>MSTA_Detail</description>
           <file>Motor_WindowMSTADetail.bob</file>
           <target>window</target>
-          <description>MSTA_Detail</description>
         </action>
       </actions>
       <text>Details</text>
@@ -55,15 +54,15 @@
       <y>4</y>
       <width>90</width>
       <height>22</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundButton" red="200" green="200" blue="200">
         </color>
       </background_color>
@@ -76,26 +75,26 @@
       <x>200</x>
       <y>4</y>
       <width>90</width>
-      <height use_class="true">22</height>
-      <font use_class="true">
+      <height>22</height>
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundReadback" red="240" green="240" blue="240">
         </color>
       </background_color>
       <format>4</format>
       <show_units>false</show_units>
-      <horizontal_alignment use_class="true">1</horizontal_alignment>
-      <vertical_alignment use_class="true">1</vertical_alignment>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
       <border_alarm_sensitive>false</border_alarm_sensitive>
-      <border_width use_class="true">1</border_width>
-      <border_color use_class="true">
+      <border_width>1</border_width>
+      <border_color>
         <color name="FLAME Border Dark" red="128" green="128" blue="128">
         </color>
       </border_color>
@@ -106,12 +105,12 @@
     <class>FLAME_BarHeavy</class>
     <y>15</y>
     <width>400</width>
-    <height use_class="true">3</height>
-    <line_color use_class="true">
+    <height>3</height>
+    <line_color>
       <color name="FLAME Border Dark" red="128" green="128" blue="128">
       </color>
     </line_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME Border Dark" red="128" green="128" blue="128">
       </color>
     </background_color>
@@ -123,15 +122,15 @@
     <x>135</x>
     <width>126</width>
     <height>25</height>
-    <font use_class="true">
+    <font>
       <font name="FLAME Header" family="Noto Sans" style="BOLD" size="18.0">
       </font>
     </font>
-    <foreground_color use_class="true">
+    <foreground_color>
       <color name="FLAME Text Main" red="0" green="0" blue="0">
       </color>
     </foreground_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
       </color>
     </background_color>
@@ -143,12 +142,12 @@
     <class>FLAME_BarHeavy</class>
     <y>415</y>
     <width>400</width>
-    <height use_class="true">3</height>
-    <line_color use_class="true">
+    <height>3</height>
+    <line_color>
       <color name="FLAME Border Dark" red="128" green="128" blue="128">
       </color>
     </line_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME Border Dark" red="128" green="128" blue="128">
       </color>
     </background_color>
@@ -160,15 +159,15 @@
     <x>150</x>
     <y>400</y>
     <height>30</height>
-    <font use_class="true">
+    <font>
       <font name="FLAME Header" family="Noto Sans" style="BOLD" size="18.0">
       </font>
     </font>
-    <foreground_color use_class="true">
+    <foreground_color>
       <color name="FLAME Text Main" red="0" green="0" blue="0">
       </color>
     </foreground_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
       </color>
     </background_color>
@@ -238,15 +237,15 @@
     <y>125</y>
     <width>76</width>
     <height>25</height>
-    <font use_class="true">
+    <font>
       <font name="FLAME Header" family="Noto Sans" style="BOLD" size="18.0">
       </font>
     </font>
-    <foreground_color use_class="true">
+    <foreground_color>
       <color name="FLAME Text Main" red="0" green="0" blue="0">
       </color>
     </foreground_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
       </color>
     </background_color>
@@ -267,15 +266,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -311,13 +310,11 @@
       <pv_name>$(P)$(M)_able.VAL</pv_name>
       <x>162</x>
       <y>4</y>
-      <width use_class="true">20</width>
-      <height use_class="true">20</height>
-      <off_color use_class="true">
-        <color name="FLAME Off Grey" red="175" green="175" blue="175">
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
         </color>
       </off_color>
-      <on_color use_class="true">
+      <on_color>
         <color name="FLAME Error" red="250" green="80" blue="50">
         </color>
       </on_color>
@@ -386,15 +383,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -405,25 +402,25 @@
       <class>FLAME_ActionButtonSmall</class>
       <actions execute_as_one="true">
         <action type="write_pv">
+          <description>Tweak motor Forward</description>
           <pv_name>$(P)$(M).TWF</pv_name>
           <value>1</value>
-          <description>Tweak motor Forward</description>
         </action>
       </actions>
       <text>&gt;</text>
       <x>300</x>
       <y>4</y>
       <width>90</width>
-      <height use_class="true">22</height>
-      <font use_class="true">
+      <height>22</height>
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundButton" red="200" green="200" blue="200">
         </color>
       </background_color>
@@ -434,25 +431,25 @@
       <class>FLAME_ActionButtonSmall</class>
       <actions execute_as_one="true">
         <action type="write_pv">
+          <description>Tweak motor Reverse</description>
           <pv_name>$(P)$(M).TWR</pv_name>
           <value>1</value>
-          <description>Tweak motor Reverse</description>
         </action>
       </actions>
       <text>&lt;</text>
       <x>200</x>
       <y>4</y>
       <width>90</width>
-      <height use_class="true">22</height>
-      <font use_class="true">
+      <height>22</height>
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundButton" red="200" green="200" blue="200">
         </color>
       </background_color>
@@ -473,15 +470,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -493,13 +490,11 @@
       <pv_name>$(P)$(M).LLS</pv_name>
       <x>162</x>
       <y>4</y>
-      <width use_class="true">20</width>
-      <height use_class="true">20</height>
-      <off_color use_class="true">
+      <off_color>
         <color name="FLAME Off Grey" red="175" green="175" blue="175">
         </color>
       </off_color>
-      <on_color use_class="true">
+      <on_color>
         <color name="FLAME Error" red="250" green="80" blue="50">
         </color>
       </on_color>
@@ -519,15 +514,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -539,13 +534,11 @@
       <pv_name>$(P)$(M).LVIO</pv_name>
       <x>162</x>
       <y>4</y>
-      <width use_class="true">20</width>
-      <height use_class="true">20</height>
-      <off_color use_class="true">
+      <off_color>
         <color name="FLAME Off Grey" red="175" green="175" blue="175">
         </color>
       </off_color>
-      <on_color use_class="true">
+      <on_color>
         <color name="FLAME Error" red="250" green="80" blue="50">
         </color>
       </on_color>
@@ -566,15 +559,15 @@
       <x>10</x>
       <width>180</width>
       <height>30</height>
-      <font use_class="true">
+      <font>
         <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
         </font>
       </font>
-      <foreground_color use_class="true">
+      <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
         </color>
       </foreground_color>
-      <background_color use_class="true">
+      <background_color>
         <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
         </color>
       </background_color>
@@ -586,13 +579,11 @@
       <pv_name>$(P)$(M).HLS</pv_name>
       <x>162</x>
       <y>4</y>
-      <width use_class="true">20</width>
-      <height use_class="true">20</height>
-      <off_color use_class="true">
+      <off_color>
         <color name="FLAME Off Grey" red="175" green="175" blue="175">
         </color>
       </off_color>
-      <on_color use_class="true">
+      <on_color>
         <color name="FLAME Error" red="250" green="80" blue="50">
         </color>
       </on_color>
@@ -620,9 +611,9 @@
     <widget type="choice" version="2.0.0">
       <name>Choice Button</name>
       <pv_name>$(P)$(M).SPMG</pv_name>
-      <x>10</x>
+      <x>55</x>
       <y>4</y>
-      <width>380</width>
+      <width>335</width>
       <height>22</height>
       <foreground_color>
         <color name="FLAME Text Main" red="0" green="0" blue="0">
@@ -643,6 +634,27 @@
         <item>Item 4</item>
       </items>
     </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_20</name>
+      <class>FLAME_Label</class>
+      <text>Mode:</text>
+      <x>10</x>
+      <width>60</width>
+      <height>30</height>
+      <font>
+        <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="FLAME Text Main" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Group_13</name>
@@ -651,26 +663,26 @@
     <height>30</height>
     <style>3</style>
     <transparent>true</transparent>
-    <widget type="label" version="2.0.0">
-      <name>Label_20</name>
-      <class>FLAME_Label</class>
-      <text>Mode:</text>
+    <widget type="progressbar" version="2.0.0">
+      <name>Progress Bar</name>
+      <pv_name>$(P)$(M).RBV</pv_name>
       <x>10</x>
-      <width>180</width>
+      <width>382</width>
       <height>30</height>
-      <font use_class="true">
-        <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color use_class="true">
-        <color name="FLAME Text Main" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color use_class="true">
-        <color name="FLAME BackgroundDisplay" red="225" green="225" blue="225">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="max" prop_id="maximum" out_exp="true">
+          <exp bool_exp="pvInt0">
+            <expression>maximum value</expression>
+          </exp>
+          <pv_name>$(P)$(M).HLM</pv_name>
+        </rule>
+        <rule name="min" prop_id="minimum" out_exp="true">
+          <exp bool_exp="pvInt0">
+            <expression>minimum value</expression>
+          </exp>
+          <pv_name>$(P)$(M).LLM</pv_name>
+        </rule>
+      </rules>
     </widget>
   </widget>
 </display>

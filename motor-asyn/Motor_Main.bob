@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-03-21 14:13:56 by psmid-->
 <display version="2.0.0">
   <name>Motor</name>
   <macros>
@@ -18,16 +17,14 @@
   <widget type="rectangle" version="2.0.0">
     <name>Title</name>
     <class>FLAME_Area5TitleBar</class>
-    <x use_class="true">0</x>
-    <y use_class="true">0</y>
     <width>1682</width>
-    <height use_class="true">50</height>
-    <line_width use_class="true">0</line_width>
+    <height>50</height>
+    <line_width>0</line_width>
     <line_color>
       <color name="FLAME Area11 Color" red="250" green="250" blue="210">
       </color>
     </line_color>
-    <background_color use_class="true">
+    <background_color>
       <color name="FLAME Area5 Color" red="195" green="200" blue="160">
       </color>
     </background_color>
@@ -37,20 +34,18 @@
     <class>FLAME_Header</class>
     <text>$(TITLE)</text>
     <x>10</x>
-    <y use_class="true">0</y>
     <width>1680</width>
-    <height use_class="true">50</height>
-    <font use_class="true">
+    <height>50</height>
+    <font>
       <font name="FLAME Title Bar" family="Noto Sans" style="REGULAR" size="28.0">
       </font>
     </font>
-    <foreground_color use_class="true">
+    <foreground_color>
       <color name="FLAME Text Main" red="0" green="0" blue="0">
       </color>
     </foreground_color>
-    <horizontal_alignment use_class="true">1</horizontal_alignment>
-    <vertical_alignment use_class="true">1</vertical_alignment>
-    <auto_size use_class="true">false</auto_size>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
   </widget>
   <widget type="tabs" version="2.0.0">
     <name>Main and Expert</name>
@@ -99,7 +94,7 @@
     <y>60</y>
     <width>1672</width>
     <height>840</height>
-    <font use_class="true">
+    <font>
       <font name="FLAME Header 3" family="Noto Sans" style="BOLD" size="16.0">
       </font>
     </font>

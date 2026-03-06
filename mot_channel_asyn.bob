@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <name>Display</name>
-  <height>50</height>
+  <height>51</height>
   <background_color>
     <color name="Transparent" red="255" green="255" blue="255" alpha="0">
     </color>
@@ -303,5 +303,28 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
       <pv_name>$(P):$(R).VAL</pv_name>
       <x>218</x>
     </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Progress Bar</name>
+    <file>mot_progress_pos.bob</file>
+    <x>119</x>
+    <y>21</y>
+    <width>201</width>
+    <height>30</height>
+    <transparent>true</transparent>
+    <rules>
+      <rule name="max" prop_id="maximum" out_exp="true">
+        <exp bool_exp="pvInt0">
+          <expression>maximum value</expression>
+        </exp>
+        <pv_name>$(P):$(R).HLM</pv_name>
+      </rule>
+      <rule name="min" prop_id="minimum" out_exp="true">
+        <exp bool_exp="pvInt0">
+          <expression>minimum value</expression>
+        </exp>
+        <pv_name>$(P):$(R).HLM</pv_name>
+      </rule>
+    </rules>
   </widget>
 </display>
