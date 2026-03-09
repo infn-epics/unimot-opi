@@ -42,9 +42,9 @@ else:
             devtype = dev.get('TYPE', '')
 
             # Accept motor-asyn type devices (technosoft-asyn, motor-asyn, or generic motor types)
-            if devtype not in ('technosoft-asyn', 'motor-asyn', 'motor', 'tml'):
-                print(widget.getName() + "] SKIPPING " + dev.get('NAME', '') + " type: " + devtype)
-                continue
+            # if devtype not in ('technosoft-asyn', 'motor-asyn', 'motor', 'tml'):
+            #     print(widget.getName() + "] SKIPPING " + dev.get('NAME', '') + " type: " + devtype)
+            #     continue
 
             zoneadd = dev.get('ZONE', '')
             if zoneadd:
