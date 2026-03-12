@@ -38,6 +38,71 @@
       </color>
     </border_color>
   </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>HomeBtn</name>
+    <actions>
+      <action type="write_pv">
+        <description>Home → LSN (Reverse)</description>
+        <pv_name>$(DEVICE).HOMR</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>Home → LSP (Forward)</description>
+        <pv_name>$(DEVICE).HOMF</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <text>Home..</text>
+    <x>6</x>
+    <y>50</y>
+    <width>90</width>
+    <height>35</height>
+    <font>
+      <font family="Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <tooltip>Home to limit switch (select configured direction)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>JogRevBtn</name>
+    <actions>
+      <action type="write_pv">
+        <description>Jog Reverse</description>
+        <pv_name>$(DEVICE).JOGR</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <text>◄ Jog</text>
+    <x>102</x>
+    <y>50</y>
+    <width>80</width>
+    <height>35</height>
+    <font>
+      <font family="Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>JogFwdBtn</name>
+    <actions>
+      <action type="write_pv">
+        <description>Jog Forward</description>
+        <pv_name>$(DEVICE).JOGF</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <text>Jog ►</text>
+    <x>188</x>
+    <y>50</y>
+    <width>80</width>
+    <height>35</height>
+    <font>
+      <font family="Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
   <widget type="progressbar" version="2.0.0">
     <name>Progress Bar Template</name>
     <pv_name>$(DEVICE):POTM_RB</pv_name>
@@ -174,8 +239,8 @@
             <text>CH status:</text>
             <x>5</x>
             <y>10</y>
-            <width>57</width>
-            <height>17</height>
+            <width>52</width>
+            <height>14</height>
             <font>
               <font name="IO Label 1" family="sans" style="REGULAR" size="11.881188118811881">
               </font>
