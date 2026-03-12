@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>760</width>
-  <height>700</height>
+  <width>766</width>
+  <height>646</height>
   <background_color>
     <color red="237" green="236" blue="235">
     </color>
@@ -13,7 +13,7 @@
   <widget type="label" version="2.0.0">
     <name>Title Banner</name>
     <text>TML - $(DEVICE)</text>
-    <width>766</width>
+    <width>754</width>
     <height>45</height>
     <font>
       <font name="EPIK8S-CS" family="sans" style="REGULAR" size="23.762376237623762">
@@ -38,75 +38,10 @@
       </color>
     </border_color>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>HomeBtn</name>
-    <actions>
-      <action type="write_pv">
-        <description>Home → LSN (Reverse)</description>
-        <pv_name>$(DEVICE).HOMR</pv_name>
-        <value>1</value>
-      </action>
-      <action type="write_pv">
-        <description>Home → LSP (Forward)</description>
-        <pv_name>$(DEVICE).HOMF</pv_name>
-        <value>1</value>
-      </action>
-    </actions>
-    <text>Home..</text>
-    <x>6</x>
-    <y>50</y>
-    <width>90</width>
-    <height>35</height>
-    <font>
-      <font family="Sans" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <tooltip>Home to limit switch (select configured direction)</tooltip>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>JogRevBtn</name>
-    <actions>
-      <action type="write_pv">
-        <description>Jog Reverse</description>
-        <pv_name>$(DEVICE).JOGR</pv_name>
-        <value>1</value>
-      </action>
-    </actions>
-    <text>◄ Jog</text>
-    <x>102</x>
-    <y>50</y>
-    <width>80</width>
-    <height>35</height>
-    <font>
-      <font family="Sans" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>JogFwdBtn</name>
-    <actions>
-      <action type="write_pv">
-        <description>Jog Forward</description>
-        <pv_name>$(DEVICE).JOGF</pv_name>
-        <value>1</value>
-      </action>
-    </actions>
-    <text>Jog ►</text>
-    <x>188</x>
-    <y>50</y>
-    <width>80</width>
-    <height>35</height>
-    <font>
-      <font family="Sans" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <tooltip>$(actions)</tooltip>
-  </widget>
   <widget type="progressbar" version="2.0.0">
     <name>Progress Bar Template</name>
     <pv_name>$(DEVICE):POTM_RB</pv_name>
-    <y>647</y>
+    <y>594</y>
     <width>756</width>
     <height>52</height>
     <fill_color>
@@ -125,8 +60,7 @@
   <widget type="embedded" version="2.0.0">
     <name>TMLCTL</name>
     <file>TML_Control.bob</file>
-    <x>6</x>
-    <y>91</y>
+    <y>52</y>
     <width>370</width>
     <height>542</height>
     <resize>1</resize>
@@ -310,8 +244,8 @@
         </children>
       </tab>
     </tabs>
-    <x>385</x>
-    <y>84</y>
+    <x>383</x>
+    <y>48</y>
     <width>371</width>
     <height>549</height>
     <background_color>
@@ -325,8 +259,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Progress Bar Template Label</name>
     <pv_name>$(DEVICE):POTM_RB</pv_name>
-    <y>647</y>
-    <width>756</width>
+    <y>594</y>
+    <width>741</width>
     <height>52</height>
     <transparent>true</transparent>
     <horizontal_alignment>1</horizontal_alignment>
