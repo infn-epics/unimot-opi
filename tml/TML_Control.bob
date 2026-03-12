@@ -322,9 +322,25 @@
       </color>
     </border_color>
   </widget>
-  <widget type="combo" version="2.0.0">
+  <widget type="action_button" version="3.0.0">
     <name>Combo_4</name>
-    <pv_name>$(DEVICE):ACT</pv_name>
+    <actions>
+      <action type="write_pv">
+        <description>HOME</description>
+        <pv_name>$(DEVICE).HOMR</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>JOG F</description>
+        <pv_name>$(DEVICE).JOGF</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>JOG R</description>
+        <pv_name>$(DEVICE).JOGR</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
     <x>72</x>
     <y>299</y>
     <width>171</width>
@@ -341,8 +357,6 @@
       <color name="IO InputPV Bg" red="255" green="255" blue="255">
       </color>
     </background_color>
-    <actions>
-    </actions>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_22</name>
@@ -410,34 +424,6 @@
       </script>
     </scripts>
     <enabled>false</enabled>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button Template_10</name>
-    <actions>
-      <action type="write_pv">
-        <description>WritePV</description>
-        <pv_name>$(pv_name)</pv_name>
-        <value>2</value>
-      </action>
-    </actions>
-    <pv_name>$(DEVICE):ACTX_SP</pv_name>
-    <text>STOP</text>
-    <x>3</x>
-    <y>557</y>
-    <width>135</width>
-    <height>55</height>
-    <font>
-      <font family="Sans" style="BOLD" size="10.891089108910892">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="Major" red="255" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Grid" red="215" green="215" blue="215">
-      </color>
-    </background_color>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Panel 2_1</name>
@@ -958,78 +944,6 @@
       <actions>
       </actions>
     </widget>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button Template_12</name>
-    <actions>
-      <action type="write_pv">
-        <description>CONNECT</description>
-        <pv_name>$(pv_name)</pv_name>
-        <value>START</value>
-      </action>
-    </actions>
-    <pv_name>$(DEVICE):MSGS</pv_name>
-    <x>112</x>
-    <y>45</y>
-    <width>124</width>
-    <font>
-      <font family="Sans" style="BOLD" size="10.891089108910892">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Grid" red="215" green="215" blue="215">
-      </color>
-    </background_color>
-    <rules>
-      <rule name="EnableIfDisabled" prop_id="enabled" out_exp="false">
-        <exp bool_exp="pv0==2 || pv0 == 6">
-          <value>true</value>
-        </exp>
-        <pv_name>$(DEVICE):STAT</pv_name>
-      </rule>
-    </rules>
-    <enabled>false</enabled>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button Template_13</name>
-    <actions>
-      <action type="write_pv">
-        <description>DISCONNECT</description>
-        <pv_name>$(pv_name)</pv_name>
-        <value>STOP</value>
-      </action>
-    </actions>
-    <pv_name>$(DEVICE):MSGS</pv_name>
-    <x>239</x>
-    <y>45</y>
-    <width>121</width>
-    <font>
-      <font family="Sans" style="BOLD" size="10.891089108910892">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Grid" red="215" green="215" blue="215">
-      </color>
-    </background_color>
-    <rules>
-      <rule name="EnableIfProcessing" prop_id="enabled" out_exp="false">
-        <exp bool_exp="pv0==4 || pv0==6">
-          <value>true</value>
-        </exp>
-        <pv_name>$(DEVICE):STAT</pv_name>
-      </rule>
-    </rules>
-    <enabled>false</enabled>
-    <show_confirm_dialog>true</show_confirm_dialog>
-    <password>eupraxia</password>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_12</name>
@@ -1629,5 +1543,57 @@
       <color name="IO PV OFF" red="77" green="77" blue="77">
       </color>
     </border_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>StopBtn</name>
+    <actions>
+      <action type="write_pv">
+        <description>Stop</description>
+        <pv_name>$(DEVICE).STOP</pv_name>
+        <value>1</value>
+      </action>
+    </actions>
+    <text>STOP</text>
+    <x>22</x>
+    <y>570</y>
+    <width>80</width>
+    <height>35</height>
+    <font>
+      <font family="Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Major" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>CnenCombo</name>
+    <pv_name>$(DEVICE).CNEN</pv_name>
+    <label>Enable</label>
+    <x>130</x>
+    <y>50</y>
+    <width>90</width>
+    <height>28</height>
+    <font>
+      <font family="Sans" style="REGULAR" size="11.0">
+      </font>
+    </font>
+    <tooltip>Motor Enable/Disable</tooltip>
+    <show_confirm_dialog>false</show_confirm_dialog>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>SpmgCombo</name>
+    <pv_name>$(DEVICE).SPMG</pv_name>
+    <x>264</x>
+    <y>520</y>
+    <width>90</width>
+    <height>28</height>
+    <font>
+      <font family="Sans" style="REGULAR" size="11.0">
+      </font>
+    </font>
+    <tooltip>Stop/Pause/Move/Go</tooltip>
   </widget>
 </display>

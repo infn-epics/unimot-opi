@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>UniMotor Asyn Dynamic</name>
-  <macros>
-    <BOBITEM>mot_channel_asyn.bob</BOBITEM>
-  </macros>
+  <name>UniMotor Dynamic</name>
   <height>640</height>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
