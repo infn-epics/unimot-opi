@@ -41,7 +41,7 @@ else:
             
             devtype=dev.get('TYPE','')
 
-            if devtype != 'tml':
+            if devtype not in ('tml', 'technosoft-asyn'):
                 print(widget.getName() + "] SKIPPING " +dev.get('name', '') + " type: " + devtype )
                 continue
             zoneadd = dev.get('ZONE', '')
