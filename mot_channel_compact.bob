@@ -131,10 +131,6 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
       <name>LED</name>
       <pv_name>$(P):$(R).LLS</pv_name>
       <x>210</x>
-      <on_color>
-        <color name="MAJOR" red="255" green="0" blue="0">
-        </color>
-      </on_color>
     </widget>
     <widget type="combo" version="2.0.0">
       <name>Action Button_1</name>
