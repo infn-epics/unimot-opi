@@ -327,7 +327,7 @@
     <actions>
       <action type="write_pv">
         <description>HOME</description>
-        <pv_name>$(DEVICE).HOMR</pv_name>
+        <pv_name>$(DEVICE):CMD:FHOME</pv_name>
         <value>1</value>
       </action>
       <action type="write_pv">
@@ -1431,8 +1431,8 @@
     <file>widgets/setpoint.bob</file>
     <x>200</x>
     <y>635</y>
-    <width>392</width>
-    <height>22</height>
+    <width>390</width>
+    <height>20</height>
     <resize>2</resize>
     <transparent>true</transparent>
   </widget>
@@ -1445,8 +1445,8 @@
     <file>widgets/setpoint.bob</file>
     <x>200</x>
     <y>665</y>
-    <width>392</width>
-    <height>22</height>
+    <width>390</width>
+    <height>20</height>
     <resize>2</resize>
     <transparent>true</transparent>
   </widget>
