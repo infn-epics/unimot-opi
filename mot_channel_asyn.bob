@@ -101,12 +101,12 @@
         </color>
       </on_color>
       <rules>
-        <rule name="Error on PROBLEM or COMM_ERR" prop_id="pv_value" out_exp="true">
-          <exp bool_exp="((pv0 &amp; 512) != 0) || ((pv0 &amp; 4096) != 0)">
-            <expression>1</expression>
+        <rule name="Error on PROBLEM or COMM_ERR" prop_id="bit" out_exp="true">
+          <exp bool_exp="(int(pv0) &amp; 4096) != 0">
+            <expression>12</expression>
           </exp>
           <exp bool_exp="true">
-            <expression>0</expression>
+            <expression>9</expression>
           </exp>
           <pv_name>$(P):$(R).MSTA</pv_name>
         </rule>
