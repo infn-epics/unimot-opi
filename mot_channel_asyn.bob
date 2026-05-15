@@ -253,7 +253,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
           <description>Poi Menu</description>
           <file>../poi.bob</file>
           <macros>
-            <READBACK>RBV</READBACK>
+            <READBACK>.RBV</READBACK>
           </macros>
           <target>window</target>
         </action>
