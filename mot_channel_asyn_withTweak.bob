@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2026-04-22 19:15:59 by valentinadompe-->
 <display version="2.0.0">
   <name>Display</name>
+  <width>975</width>
   <height>51</height>
   <background_color>
     <color name="Transparent" red="255" green="255" blue="255" alpha="0">
@@ -8,7 +10,7 @@
   </background_color>
   <widget type="group" version="3.0.0">
     <name>MotorElem</name>
-    <width>800</width>
+    <width>965</width>
     <height>50</height>
     <style>2</style>
     <foreground_color>
@@ -66,26 +68,26 @@
     <widget type="led" version="2.0.0">
       <name>LED_1</name>
       <pv_name>$(P):$(R).HLS</pv_name>
-      <x>369</x>
+      <x>370</x>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Relative</name>
       <pv_name>$(P):$(R).RLV</pv_name>
-      <x>578</x>
+      <x>585</x>
       <vertical_alignment>0</vertical_alignment>
       <wrap_words>true</wrap_words>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Absolute</name>
       <pv_name>$(P):$(R).VAL</pv_name>
-      <x>468</x>
+      <x>477</x>
       <vertical_alignment>0</vertical_alignment>
       <wrap_words>true</wrap_words>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_3</name>
       <pv_name>$(P):$(R).MOVN</pv_name>
-      <x>437</x>
+      <x>439</x>
       <on_color>
         <color name="OK" red="0" green="255" blue="0">
         </color>
@@ -95,7 +97,7 @@
       <name>ERROR_LED</name>
       <pv_name>$(P):$(R).MSTA</pv_name>
       <bit>9</bit>
-      <x>398</x>
+      <x>403</x>
       <on_color>
         <color name="MAJOR" red="255" green="0" blue="0">
         </color>
@@ -118,7 +120,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="led" version="2.0.0">
       <name>LED</name>
       <pv_name>$(P):$(R).LLS</pv_name>
-      <x>340</x>
+      <x>335</x>
       <on_color>
         <color name="MAJOR" red="255" green="0" blue="0">
         </color>
@@ -224,7 +226,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="combo" version="2.0.0">
       <name>Poisel</name>
       <pv_name>$(P):$(R):POI_SEL</pv_name>
-      <x>644</x>
+      <x>808</x>
       <width>95</width>
       <height>20</height>
       <visible>false</visible>
@@ -253,14 +255,14 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
           <description>Poi Menu</description>
           <file>../poi.bob</file>
           <macros>
-            <READBACK>.RBV</READBACK>
+            <READBACK>RBV</READBACK>
           </macros>
           <target>window</target>
         </action>
       </actions>
       <pv_name>$(P):$(R):POI_GO</pv_name>
       <text>Poi..</text>
-      <x>746</x>
+      <x>910</x>
       <width>50</width>
       <height>40</height>
       <visible>false</visible>
@@ -277,7 +279,7 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
     <widget type="textupdate" version="2.0.0">
       <name>Poicurr</name>
       <pv_name>$(P):$(R):POI_CURR</pv_name>
-      <x>644</x>
+      <x>808</x>
       <y>20</y>
       <visible>false</visible>
       <font>
@@ -302,6 +304,71 @@ Bit 12 (4096): COMM_ERR - communication error</tooltip>
       <name>Text Update_2</name>
       <pv_name>$(P):$(R).VAL</pv_name>
       <x>218</x>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Relative_1</name>
+      <pv_name>$(P):$(R).TWV</pv_name>
+      <x>694</x>
+      <vertical_alignment>0</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Start Button_7</name>
+      <class>FLAME_ActionButtonSmall</class>
+      <actions execute_as_one="true">
+        <action type="write_pv">
+          <description>Tweak motor Reverse</description>
+          <pv_name>$(P):$(R).TWR</pv_name>
+          <value>1</value>
+        </action>
+      </actions>
+      <text>&lt;</text>
+      <x>707</x>
+      <y>23</y>
+      <width>35</width>
+      <height>22</height>
+      <font>
+        <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="FLAME Text Main" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FLAME BackgroundButton" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip></tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Start Button_8</name>
+      <class>FLAME_ActionButtonSmall</class>
+      <actions execute_as_one="true">
+        <action type="write_pv">
+          <description>Tweak motor Forward</description>
+          <pv_name>$(P):$(R).TWF</pv_name>
+          <value>1</value>
+        </action>
+      </actions>
+      <text>&gt;</text>
+      <x>743</x>
+      <y>23</y>
+      <width>35</width>
+      <height>22</height>
+      <font>
+        <font name="FLAME Label" family="Noto Sans" style="REGULAR" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="FLAME Text Main" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="FLAME BackgroundButton" red="200" green="200" blue="200">
+        </color>
+      </background_color>
+      <tooltip></tooltip>
     </widget>
   </widget>
   <widget type="embedded" version="2.0.0">
