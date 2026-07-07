@@ -10,15 +10,15 @@
     <rules>
       <rule name="max" prop_id="maximum" out_exp="true">
         <exp bool_exp="pvInt0">
-          <expression>maximum value</expression>
+          <expression>pvFloat0</expression>
         </exp>
         <pv_name>$(P):$(R).HLM</pv_name>
       </rule>
       <rule name="min" prop_id="minimum" out_exp="true">
         <exp bool_exp="pvInt0">
-          <expression>minimum value</expression>
+          <expression>pvFloat0</expression>
         </exp>
-        <pv_name>$(P):$(R).HLM</pv_name>
+        <pv_name>$(P):$(R).LLM</pv_name>
       </rule>
     </rules>
   </widget>
