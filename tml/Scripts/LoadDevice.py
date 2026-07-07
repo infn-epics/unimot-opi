@@ -44,14 +44,16 @@ else:
             if devtype not in ('tml', 'technosoft-asyn'):
                 print(widget.getName() + "] SKIPPING " +dev.get('name', '') + " type: " + devtype )
                 continue
+            ## a device can belong to multiple zones (comma separated in the ZONE macro), handle each individually
             zoneadd = dev.get('ZONE', '')
+            dev_zones = [z.strip() for z in zoneadd.split(',') if z.strip()]
 
             if 'zones_set' not in locals():
                 zones_set = set()
-            if zone:
-                zones_set.add(zoneadd)
+            for z in dev_zones:
+                zones_set.add(z)
 
-            if zone != "ALL" and zone not in (dev.get('ZONE','')):
+            if zone != "ALL" and zone not in dev_zones:
                 continue
 
             device_name = dev.get('NAME', '')

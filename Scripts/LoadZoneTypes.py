@@ -41,7 +41,11 @@ else:
             zoneadd = dev.get('ZONE', '')
             typedev=dev.get('TYPE','')
             if zoneadd:
-                zones_set.add(zoneadd)
+                ## a device can belong to multiple zones (comma separated in the ZONE macro), add each individually
+                for z in zoneadd.split(','):
+                    z = z.strip()
+                    if z:
+                        zones_set.add(z)
 
             if funcdev:
                 func_set.add(funcdev)
